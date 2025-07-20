@@ -9,7 +9,7 @@
 
 - 💬 Ask me about **Frontend, Backend**
 
-- 📫 How to reach me **chilhatedharmendra@gmail.com**
+- 📫 How to reach me **in/dharmendra-chilhate-653b3b293**
 
 - ⚡ Fun fact **I am Dedicated**
 
