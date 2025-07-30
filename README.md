@@ -3,11 +3,11 @@
 <img align="right" src="https://media.licdn.com/dms/image/v2/D5612AQGOmwfIE5mlWA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1674617947228?e=2147483647&v=beta&t=L-J1EFIJzlFXa-2bu5K-SqOT0PXYAaPZgXxnpneoF0U" width="400px">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dharmen-123&label=Profile%20views&color=0e75b6&style=flat" alt="dharmen-123" /> </p>
 
-- 🌱 I’m currently learning **Django**
+- 🌱 I’m currently learning **REST API**
 
-- 🤝 I’m looking for help with **Web Development**
+- 🤝 I’m looking for help with **Web Developer**
 
-- 💬 Ask me about **Frontend, Backend**
+- 💬 Ask me about **Full Stack Projects**
 
 - 📫 How to reach me **in/dharmendra-chilhate-653b3b293**
 
