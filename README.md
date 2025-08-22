@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **in/dharmendra-chilhate-653b3b293**
 
-- ⚡ Fun fact **I am Dedicated with my Learning**
+- ⚡ Fun fact **I am Dedicated**
 
 ## 🌐 Socials:
 <p align="left">
