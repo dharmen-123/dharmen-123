@@ -1,6 +1,6 @@
 # 💫 About Me:
 <h1 align="center">Hi 👋, I'm Dharmendra Chilhate</h1>
-<img align="right" src="https://media.licdn.com/dms/image/v2/D5612AQGOmwfIE5mlWA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1674617947228?e=2147483647&v=beta&t=L-J1EFIJzlFXa-2bu5K-SqOT0PXYAaPZgXxnpneoF0U" width="400px">
+<img align="right" src="https://media.licdn.com/dms/image/v2/D5612AQGOmwfIE5mlWA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1674617947228?e=2147483647&v=beta&t=L-J1EFIJzlFXa-2bu5K-SqOT0PXYAaPZgXxnpneoF0U" width="350px">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dharmen-123&label=Profile%20views&color=0e75b6&style=flat" alt="dharmen-123" /> </p>
 
 - 🌱 I’m currently learning **Machine Learning**
@@ -24,6 +24,9 @@
 <a href="https://leetcode.com/u/dharmendra_101/">
 <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
 </a>
+<a href="https://www.geeksforgeeks.org/profile/dharmendra101">
+<img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/>
+</a>
 </p>
 
 # 💻 Tech Stack:
@@ -32,9 +35,7 @@
 
 # 📊 GitHub Stats:
 <p align="center">
-<img src="https://streak-stats.demolab.com?user=harshita-101&theme=tokyonight&hide_border=true"/>
+<img src="https://streak-stats.demolab.com?user=dharmen-123&theme=tokyonight&hide_border=true"/>
 </p>
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=dharmen-123&theme=city_lights&no-frame=false&no-bg=false&margin-w=4)
-
