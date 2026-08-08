@@ -15,9 +15,15 @@
 
 ## 🌐 Socials:
 <p align="left">
-<a href="https://linkedin.com/in/in/dharmendra-chilhate-653b3b293" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="in/dharmendra-chilhate-653b3b293" height="30" width="40" /></a>  
-<a href="https://www.leetcode.com/https://leetcode.com/u/dharmendra_101/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/dharmendra_101/" height="30" width="40" /></a>  
-<a href="https://auth.geeksforgeeks.org/user/dharmendra101" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="dharmendra101" height="30" width="40" /></a>    
+<a href="https://linkedin.com/in/in/dharmendra-chilhate-653b3b293">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<a href="https://github.com/dharmen-123">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<a href="https://leetcode.com/u/dharmendra_101/">
+<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
+</a>
 </p>
 
 # 💻 Tech Stack:
@@ -25,10 +31,9 @@
 ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=dharmen-123&theme=highcontrast&hide_border=true&include_all_commits=false&count_private=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=dharmen-123&theme=highcontrast&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
-![](https://nirzak-streak-stats.vercel.app/?user=dharmen-123&theme=highcontrast&hide_border=true)
-
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=harshita-101&theme=tokyonight&hide_border=true"/>
+</p>
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=dharmen-123&theme=city_lights&no-frame=false&no-bg=false&margin-w=4)
