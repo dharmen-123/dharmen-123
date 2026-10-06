@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="405" viewBox="0 0 1200 405"
+     role="img" aria-labelledby="title desc">
+<title id="title">Dharmendra Chilhate — Expertise</title>
+<desc id="desc">Animated GitHub profile section for Dharmendra Chilhate.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#06111F"/><stop offset=".52" stop-color="#091B31"/><stop offset="1" stop-color="#101B4A"/>
+  </linearGradient>
+  <radialGradient id="cyanGlow"><stop offset="0" stop-color="#22D3EE" stop-opacity=".22"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+  <radialGradient id="violetGlow"><stop offset="0" stop-color="#A78BFA" stop-opacity=".22"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#22D3EE" stop-opacity=".8"/><stop offset=".5" stop-color="#38BDF8" stop-opacity=".28"/><stop offset="1" stop-color="#A78BFA" stop-opacity=".8"/>
+  </linearGradient>
+  <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.2" fill="#7DD3FC" opacity=".10"/>
+  </pattern>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="20"/>
+  </filter>
+  <style>
+    .font{font-family:Inter,"Segoe UI",Arial,sans-serif}
+    .in{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+    @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+    .float{animation:float 5s ease-in-out infinite}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    .pulse{animation:pulse 2.8s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+    .spin{animation:spin 18s linear infinite;transform-origin:50% 50%}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .scan{animation:scan 5.5s ease-in-out infinite}
+    @keyframes scan{0%{transform:translateX(-420px);opacity:0}15%{opacity:1}75%{opacity:1}100%{transform:translateX(1500px);opacity:0}}
+    .dash{stroke-dasharray:12 12;animation:dash 7s linear infinite}
+    @keyframes dash{to{stroke-dashoffset:-120}}
+    @media(prefers-reduced-motion:reduce){.in,.float,.pulse,.spin,.scan,.dash{animation:none}}
+  </style>
+</defs>
+<rect width="1200" height="405" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="405" rx="28" fill="url(#dots)"/>
+<ellipse cx="180" cy="60" rx="470" ry="300" fill="url(#cyanGlow)"/>
+<ellipse cx="1080" cy="345" rx="480" ry="330" fill="url(#violetGlow)"/>
+<rect x=".7" y=".7" width="1198.6" height="403.6" rx="28" fill="none" stroke="url(#edge)" stroke-opacity=".55"/>
+
+<g class="font">
+<text x="40" y="52" font-size="27" font-weight="900" fill="#F8FAFC">🧠 Areas of Expertise</text>
+<g class="in" style="animation-delay:0.00s"><rect x="35" y="95" width="260" height="58" rx="15" fill="#071A30" stroke="#38BDF8" stroke-opacity=".42"/>
+    <text x="55" y="131" font-size="18">🤖</text><text x="87" y="121" font-size="13" font-weight="800" fill="#F8FAFC">AI &amp; Machine Learning</text></g><g class="in" style="animation-delay:0.04s"><rect x="320" y="95" width="260" height="58" rx="15" fill="#071A30" stroke="#38BDF8" stroke-opacity=".42"/>
+    <text x="340" y="131" font-size="18">🌐</text><text x="372" y="121" font-size="13" font-weight="800" fill="#F8FAFC">Full Stack Development</text></g><g class="in" style="animation-delay:0.08s"><rect x="605" y="95" width="260" height="58" rx="15" fill="#071A30" stroke="#38BDF8" stroke-opacity=".42"/>
+    <text x="625" y="131" font-size="18">📊</text><text x="657" y="121" font-size="13" font-weight="800" fill="#F8FAFC">Data Analysis &amp; Visualization</text></g><g class="in" style="animation-delay:0.12s"><rect x="890" y="95" width="260" height="58" rx="15" fill="#071A30" stroke="#38BDF8" stroke-opacity=".42"/>
+    <text x="910" y="131" font-size="18">🧠</text><text x="942" y="121" font-size="13" font-weight="800" fill="#F8FAFC">NLP &amp; LLM Applications</text></g><g class="in" style="animation-delay:0.16s"><rect x="35" y="171" width="260" height="58" rx="15" fill="#071A30" stroke="#38BDF8" stroke-opacity=".42"/>
+    <text x="55" y="207" font-size="18">☁️</text><text x="87" y="197" font-size="13" font-weight="800" fill="#F8FAFC">Cloud Services</text></g><g class="in" style="animation-delay:0.20s"><rect x="320" y="171" width="260" height="58" rx="15" fill="#071A30" stroke="#38BDF8" stroke-opacity=".42"/>
+    <text x="340" y="207" font-size="18">🔗</text><text x="372" y="197" font-size="13" font-weight="800" fill="#F8FAFC">API Development &amp; Integration</text></g><g class="in" style="animation-delay:0.24s"><rect x="605" y="171" width="260" height="58" rx="15" fill="#071A30" stroke="#38BDF8" stroke-opacity=".42"/>
+    <text x="625" y="207" font-size="18">🗄️</text><text x="657" y="197" font-size="13" font-weight="800" fill="#F8FAFC">Database Design &amp; Management</text></g><g class="in" style="animation-delay:0.28s"><rect x="890" y="171" width="260" height="58" rx="15" fill="#071A30" stroke="#38BDF8" stroke-opacity=".42"/>
+    <text x="910" y="207" font-size="18">🎯</text><text x="942" y="197" font-size="13" font-weight="800" fill="#F8FAFC">Problem Solving &amp; DSA</text></g>
+<g class="float">
+<rect x="35" y="260" width="1130" height="112" rx="22" fill="#071A30" stroke="#A78BFA" stroke-opacity=".5"/>
+<text x="60" y="295" font-size="18" font-weight="900" fill="#F8FAFC">⚡ Currently Learning</text>
+<text x="60" y="323" font-size="14" fill="#22D3EE">Cloud Services</text>
+<text x="60" y="348" font-size="13" fill="#A7B4CC">Exploring deployment, cloud architecture and modern engineering workflows.</text>
+</g>
+</g>
+</svg>

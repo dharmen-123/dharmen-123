@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="320" viewBox="0 0 1200 320"
+     role="img" aria-labelledby="title desc">
+<title id="title">Connect with Dharmendra Chilhate</title>
+<desc id="desc">Animated GitHub profile section for Dharmendra Chilhate.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#06111F"/><stop offset=".52" stop-color="#091B31"/><stop offset="1" stop-color="#101B4A"/>
+  </linearGradient>
+  <radialGradient id="cyanGlow"><stop offset="0" stop-color="#22D3EE" stop-opacity=".22"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+  <radialGradient id="violetGlow"><stop offset="0" stop-color="#A78BFA" stop-opacity=".22"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#22D3EE" stop-opacity=".8"/><stop offset=".5" stop-color="#38BDF8" stop-opacity=".28"/><stop offset="1" stop-color="#A78BFA" stop-opacity=".8"/>
+  </linearGradient>
+  <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.2" fill="#7DD3FC" opacity=".10"/>
+  </pattern>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="20"/>
+  </filter>
+  <style>
+    .font{font-family:Inter,"Segoe UI",Arial,sans-serif}
+    .in{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+    @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+    .float{animation:float 5s ease-in-out infinite}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    .pulse{animation:pulse 2.8s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+    .spin{animation:spin 18s linear infinite;transform-origin:50% 50%}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .scan{animation:scan 5.5s ease-in-out infinite}
+    @keyframes scan{0%{transform:translateX(-420px);opacity:0}15%{opacity:1}75%{opacity:1}100%{transform:translateX(1500px);opacity:0}}
+    .dash{stroke-dasharray:12 12;animation:dash 7s linear infinite}
+    @keyframes dash{to{stroke-dashoffset:-120}}
+    @media(prefers-reduced-motion:reduce){.in,.float,.pulse,.spin,.scan,.dash{animation:none}}
+  </style>
+</defs>
+<rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="320" rx="28" fill="url(#dots)"/>
+<ellipse cx="180" cy="60" rx="470" ry="300" fill="url(#cyanGlow)"/>
+<ellipse cx="1080" cy="260" rx="480" ry="330" fill="url(#violetGlow)"/>
+<rect x=".7" y=".7" width="1198.6" height="318.6" rx="28" fill="none" stroke="url(#edge)" stroke-opacity=".55"/>
+
+<g class="font">
+<text x="40" y="54" font-size="27" font-weight="900" fill="#F8FAFC">🤝 Let's Connect</text>
+<text x="40" y="84" font-size="15" fill="#A7B4CC">Feel free to reach out for collaboration, projects or technical discussions.</text>
+<g class="in" style="animation-delay:.2s">
+<g transform="translate(40 112)"><rect width="235" height="55" rx="17" fill="#071A30" stroke="#38BDF8" stroke-opacity=".7"/><text x="25" y="34" font-size="15" fill="#F8FAFC">LinkedIn</text><text x="205" y="34" text-anchor="end" font-size="15" fill="#38BDF8">→</text></g><g transform="translate(310 112)"><rect width="235" height="55" rx="17" fill="#071A30" stroke="#F8FAFC" stroke-opacity=".7"/><text x="25" y="34" font-size="15" fill="#F8FAFC">GitHub</text><text x="205" y="34" text-anchor="end" font-size="15" fill="#F8FAFC">→</text></g><g transform="translate(580 112)"><rect width="235" height="55" rx="17" fill="#071A30" stroke="#F0ABFC" stroke-opacity=".7"/><text x="25" y="34" font-size="15" fill="#F8FAFC">Email</text><text x="205" y="34" text-anchor="end" font-size="15" fill="#F0ABFC">→</text></g><g transform="translate(850 112)"><rect width="235" height="55" rx="17" fill="#071A30" stroke="#A78BFA" stroke-opacity=".7"/><text x="25" y="34" font-size="15" fill="#F8FAFC">Portfolio</text><text x="205" y="34" text-anchor="end" font-size="15" fill="#A78BFA">→</text></g>
+</g>
+<g class="float">
+<rect x="40" y="200" width="1120" height="82" rx="22" fill="#071A30" stroke="#22D3EE" stroke-opacity=".45"/>
+<text x="65" y="235" font-size="17" font-weight="900" fill="#F8FAFC">⭐ Support</text>
+<text x="65" y="260" font-size="13" fill="#A7B4CC">If you find my work useful, consider giving a star. Feedback and contributions are welcome.</text>
+</g>
+</g>
+</svg>

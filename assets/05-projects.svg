@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="380" viewBox="0 0 1200 380"
+     role="img" aria-labelledby="title desc">
+<title id="title">Dharmendra Chilhate — Featured Projects</title>
+<desc id="desc">Animated GitHub profile section for Dharmendra Chilhate.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#06111F"/><stop offset=".52" stop-color="#091B31"/><stop offset="1" stop-color="#101B4A"/>
+  </linearGradient>
+  <radialGradient id="cyanGlow"><stop offset="0" stop-color="#22D3EE" stop-opacity=".22"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+  <radialGradient id="violetGlow"><stop offset="0" stop-color="#A78BFA" stop-opacity=".22"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#22D3EE" stop-opacity=".8"/><stop offset=".5" stop-color="#38BDF8" stop-opacity=".28"/><stop offset="1" stop-color="#A78BFA" stop-opacity=".8"/>
+  </linearGradient>
+  <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.2" fill="#7DD3FC" opacity=".10"/>
+  </pattern>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="20"/>
+  </filter>
+  <style>
+    .font{font-family:Inter,"Segoe UI",Arial,sans-serif}
+    .in{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+    @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+    .float{animation:float 5s ease-in-out infinite}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    .pulse{animation:pulse 2.8s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+    .spin{animation:spin 18s linear infinite;transform-origin:50% 50%}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .scan{animation:scan 5.5s ease-in-out infinite}
+    @keyframes scan{0%{transform:translateX(-420px);opacity:0}15%{opacity:1}75%{opacity:1}100%{transform:translateX(1500px);opacity:0}}
+    .dash{stroke-dasharray:12 12;animation:dash 7s linear infinite}
+    @keyframes dash{to{stroke-dashoffset:-120}}
+    @media(prefers-reduced-motion:reduce){.in,.float,.pulse,.spin,.scan,.dash{animation:none}}
+  </style>
+</defs>
+<rect width="1200" height="380" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="380" rx="28" fill="url(#dots)"/>
+<ellipse cx="180" cy="60" rx="470" ry="300" fill="url(#cyanGlow)"/>
+<ellipse cx="1080" cy="320" rx="480" ry="330" fill="url(#violetGlow)"/>
+<rect x=".7" y=".7" width="1198.6" height="378.6" rx="28" fill="none" stroke="url(#edge)" stroke-opacity=".55"/>
+
+<g class="font">
+<text x="40" y="52" font-size="27" font-weight="900" fill="#F8FAFC">🚀 Featured Projects</text>
+<text x="40" y="76" font-size="14" fill="#A7B4CC">Selected work — links appear only where they are publicly available.</text>
+<g class="in" style="animation-delay:0.00s">
+<rect x="35" y="95" width="350" height="245" rx="22" fill="#071A30" stroke="#22D3EE" stroke-opacity=".6"/>
+<rect x="55" y="115" width="310" height="46" rx="14" fill="#22D3EE" fill-opacity=".09"/>
+<text x="70" y="144" font-size="17" font-weight="900" fill="#F8FAFC">✈️ Tours &amp; Trip – Travel Website</text>
+<text x="60" y="190" font-size="13" fill="#A7B4CC">Responsive travel website focused on a clean travel discovery and tour experience.</text>
+<text x="60" y="215" font-size="13" fill="#F8FAFC">Project status:</text>
+<text x="60" y="238" font-size="13" fill="#22D3EE">GitHub + Live Demo</text>
+<rect x="60" y="278" width="300" height="2" fill="#22D3EE" opacity=".35"/>
+<text x="60" y="310" font-size="12" fill="#A7B4CC">Built with practical engineering &amp; problem-solving focus.</text>
+</g><g class="in" style="animation-delay:0.15s">
+<rect x="410" y="95" width="350" height="245" rx="22" fill="#071A30" stroke="#A78BFA" stroke-opacity=".6"/>
+<rect x="430" y="115" width="310" height="46" rx="14" fill="#A78BFA" fill-opacity=".09"/>
+<text x="445" y="144" font-size="17" font-weight="900" fill="#F8FAFC">🔐 OTP Authentication Service</text>
+<text x="435" y="190" font-size="13" fill="#A7B4CC">Authentication service centered on OTP verification and secure user access workflows.</text>
+<text x="435" y="215" font-size="13" fill="#F8FAFC">Project status:</text>
+<text x="435" y="238" font-size="13" fill="#A78BFA">Private / No public link</text>
+<rect x="435" y="278" width="300" height="2" fill="#A78BFA" opacity=".35"/>
+<text x="435" y="310" font-size="12" fill="#A7B4CC">Built with practical engineering &amp; problem-solving focus.</text>
+</g><g class="in" style="animation-delay:0.30s">
+<rect x="785" y="95" width="350" height="245" rx="22" fill="#071A30" stroke="#34D399" stroke-opacity=".6"/>
+<rect x="805" y="115" width="310" height="46" rx="14" fill="#34D399" fill-opacity=".09"/>
+<text x="820" y="144" font-size="17" font-weight="900" fill="#F8FAFC">📄 Document QnA Bot</text>
+<text x="810" y="190" font-size="13" fill="#A7B4CC">AI-powered document question-answering application using NLP and LLM-based techniques.</text>
+<text x="810" y="215" font-size="13" fill="#F8FAFC">Project status:</text>
+<text x="810" y="238" font-size="13" fill="#34D399">GitHub repository</text>
+<rect x="810" y="278" width="300" height="2" fill="#34D399" opacity=".35"/>
+<text x="810" y="310" font-size="12" fill="#A7B4CC">Built with practical engineering &amp; problem-solving focus.</text>
+</g>
+</g>
+</svg>

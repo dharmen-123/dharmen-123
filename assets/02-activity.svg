@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="470" viewBox="0 0 1200 470"
+     role="img" aria-labelledby="title desc">
+<title id="title">Dharmendra Chilhate — GitHub Activity</title>
+<desc id="desc">Animated GitHub profile section for Dharmendra Chilhate.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#06111F"/><stop offset=".52" stop-color="#091B31"/><stop offset="1" stop-color="#101B4A"/>
+  </linearGradient>
+  <radialGradient id="cyanGlow"><stop offset="0" stop-color="#22D3EE" stop-opacity=".22"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+  <radialGradient id="violetGlow"><stop offset="0" stop-color="#A78BFA" stop-opacity=".22"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#22D3EE" stop-opacity=".8"/><stop offset=".5" stop-color="#38BDF8" stop-opacity=".28"/><stop offset="1" stop-color="#A78BFA" stop-opacity=".8"/>
+  </linearGradient>
+  <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.2" fill="#7DD3FC" opacity=".10"/>
+  </pattern>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="20"/>
+  </filter>
+  <style>
+    .font{font-family:Inter,"Segoe UI",Arial,sans-serif}
+    .in{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+    @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+    .float{animation:float 5s ease-in-out infinite}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    .pulse{animation:pulse 2.8s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+    .spin{animation:spin 18s linear infinite;transform-origin:50% 50%}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .scan{animation:scan 5.5s ease-in-out infinite}
+    @keyframes scan{0%{transform:translateX(-420px);opacity:0}15%{opacity:1}75%{opacity:1}100%{transform:translateX(1500px);opacity:0}}
+    .dash{stroke-dasharray:12 12;animation:dash 7s linear infinite}
+    @keyframes dash{to{stroke-dashoffset:-120}}
+    @media(prefers-reduced-motion:reduce){.in,.float,.pulse,.spin,.scan,.dash{animation:none}}
+  </style>
+</defs>
+<rect width="1200" height="470" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="470" rx="28" fill="url(#dots)"/>
+<ellipse cx="180" cy="60" rx="470" ry="300" fill="url(#cyanGlow)"/>
+<ellipse cx="1080" cy="410" rx="480" ry="330" fill="url(#violetGlow)"/>
+<rect x=".7" y=".7" width="1198.6" height="468.6" rx="28" fill="none" stroke="url(#edge)" stroke-opacity=".55"/>
+
+<g class="font">
+<text x="40" y="50" font-size="25" font-weight="900" fill="#F8FAFC">GitHub Activity</text>
+<text x="40" y="75" font-size="14" fill="#A7B4CC">Live profile statistics • contribution activity • developer footprint</text>
+
+<g class="in" style="animation-delay:.1s">
+  <rect x="35" y="98" width="270" height="145" rx="20" fill="#071A30" stroke="#22D3EE" stroke-opacity=".45"/>
+  <text x="58" y="130" font-size="14" fill="#A7B4CC">GitHub Profile</text>
+  <text x="58" y="178" font-size="30" font-weight="900" fill="#F8FAFC">LIVE</text>
+  <text x="58" y="207" font-size="13" fill="#22D3EE">github.com/dharmen-123</text>
+  <circle cx="270" cy="130" r="7" fill="#34D399" class="pulse"/>
+</g>
+<g class="in" style="animation-delay:.2s">
+  <rect x="325" y="98" width="270" height="145" rx="20" fill="#071A30" stroke="#A78BFA" stroke-opacity=".45"/>
+  <text x="348" y="130" font-size="14" fill="#A7B4CC">Current Focus</text>
+  <text x="348" y="171" font-size="24" font-weight="900" fill="#F8FAFC">Cloud Services</text>
+  <text x="348" y="202" font-size="13" fill="#A7B4CC">Learning • Building • Deploying</text>
+</g>
+<g class="in" style="animation-delay:.3s">
+  <rect x="615" y="98" width="270" height="145" rx="20" fill="#071A30" stroke="#38BDF8" stroke-opacity=".45"/>
+  <text x="638" y="130" font-size="14" fill="#A7B4CC">Core Stack</text>
+  <text x="638" y="171" font-size="24" font-weight="900" fill="#F8FAFC">Python • C++</text>
+  <text x="638" y="201" font-size="14" fill="#22D3EE">AI/ML • Full Stack</text>
+</g>
+<g class="in" style="animation-delay:.4s">
+  <rect x="905" y="98" width="260" height="145" rx="20" fill="#071A30" stroke="#F0ABFC" stroke-opacity=".45"/>
+  <text x="928" y="130" font-size="14" fill="#A7B4CC">Mindset</text>
+  <text x="928" y="171" font-size="24" font-weight="900" fill="#F8FAFC">Build • Learn</text>
+  <text x="928" y="201" font-size="14" fill="#A78BFA">Grow • Repeat 🚀</text>
+</g>
+
+<g transform="translate(0 270)">
+  <rect x="35" y="0" width="1130" height="170" rx="22" fill="#071A30" stroke="#1D4F78"/>
+  <text x="60" y="36" font-size="17" font-weight="800" fill="#F8FAFC">Animated contribution rhythm</text>
+  <g transform="translate(60 57)">
+    <line x1="0" y1="88" x2="1040" y2="88" stroke="#1D4F78"/>
+    <rect class="bar" x="0" y="40" width="22" height="48" rx="6" fill="url(#barGrad)" style="animation-delay:0.00s"/><rect class="bar" x="40" y="49" width="22" height="41" rx="6" fill="url(#barGrad)" style="animation-delay:0.07s"/><rect class="bar" x="80" y="58" width="22" height="34" rx="6" fill="url(#barGrad)" style="animation-delay:0.14s"/><rect class="bar" x="120" y="67" width="22" height="27" rx="6" fill="url(#barGrad)" style="animation-delay:0.21s"/><rect class="bar" x="160" y="76" width="22" height="20" rx="6" fill="url(#barGrad)" style="animation-delay:0.28s"/><rect class="bar" x="200" y="40" width="22" height="48" rx="6" fill="url(#barGrad)" style="animation-delay:0.35s"/><rect class="bar" x="240" y="49" width="22" height="41" rx="6" fill="url(#barGrad)" style="animation-delay:0.42s"/><rect class="bar" x="280" y="58" width="22" height="34" rx="6" fill="url(#barGrad)" style="animation-delay:0.49s"/><rect class="bar" x="320" y="67" width="22" height="27" rx="6" fill="url(#barGrad)" style="animation-delay:0.56s"/><rect class="bar" x="360" y="76" width="22" height="20" rx="6" fill="url(#barGrad)" style="animation-delay:0.63s"/><rect class="bar" x="400" y="40" width="22" height="48" rx="6" fill="url(#barGrad)" style="animation-delay:0.70s"/><rect class="bar" x="440" y="49" width="22" height="41" rx="6" fill="url(#barGrad)" style="animation-delay:0.77s"/><rect class="bar" x="480" y="58" width="22" height="34" rx="6" fill="url(#barGrad)" style="animation-delay:0.84s"/><rect class="bar" x="520" y="67" width="22" height="27" rx="6" fill="url(#barGrad)" style="animation-delay:0.91s"/><rect class="bar" x="560" y="76" width="22" height="20" rx="6" fill="url(#barGrad)" style="animation-delay:0.98s"/><rect class="bar" x="600" y="40" width="22" height="48" rx="6" fill="url(#barGrad)" style="animation-delay:1.05s"/><rect class="bar" x="640" y="49" width="22" height="41" rx="6" fill="url(#barGrad)" style="animation-delay:1.12s"/><rect class="bar" x="680" y="58" width="22" height="34" rx="6" fill="url(#barGrad)" style="animation-delay:1.19s"/><rect class="bar" x="720" y="67" width="22" height="27" rx="6" fill="url(#barGrad)" style="animation-delay:1.26s"/><rect class="bar" x="760" y="76" width="22" height="20" rx="6" fill="url(#barGrad)" style="animation-delay:1.33s"/><rect class="bar" x="800" y="40" width="22" height="48" rx="6" fill="url(#barGrad)" style="animation-delay:1.40s"/><rect class="bar" x="840" y="49" width="22" height="41" rx="6" fill="url(#barGrad)" style="animation-delay:1.47s"/><rect class="bar" x="880" y="58" width="22" height="34" rx="6" fill="url(#barGrad)" style="animation-delay:1.54s"/><rect class="bar" x="920" y="67" width="22" height="27" rx="6" fill="url(#barGrad)" style="animation-delay:1.61s"/><rect class="bar" x="960" y="76" width="22" height="20" rx="6" fill="url(#barGrad)" style="animation-delay:1.68s"/>
+    <defs><linearGradient id="barGrad" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient></defs>
+    <path d="M0 75 C80 20 130 90 200 50 S330 25 410 70 S530 95 600 38 S730 30 810 64 S930 10 1040 50" fill="none" stroke="#22D3EE" stroke-width="3" class="dash"/>
+  </g>
+  <text x="60" y="145" font-size="12" fill="#A7B4CC">This visual is animated in SVG; actual GitHub statistics are shown below using live widgets.</text>
+</g>
+</g>
+
+</svg>

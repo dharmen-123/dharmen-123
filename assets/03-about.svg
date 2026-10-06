@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="300" viewBox="0 0 1200 300"
+     role="img" aria-labelledby="title desc">
+<title id="title">About Dharmendra Chilhate</title>
+<desc id="desc">Animated GitHub profile section for Dharmendra Chilhate.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#06111F"/><stop offset=".52" stop-color="#091B31"/><stop offset="1" stop-color="#101B4A"/>
+  </linearGradient>
+  <radialGradient id="cyanGlow"><stop offset="0" stop-color="#22D3EE" stop-opacity=".22"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+  <radialGradient id="violetGlow"><stop offset="0" stop-color="#A78BFA" stop-opacity=".22"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></radialGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#22D3EE" stop-opacity=".8"/><stop offset=".5" stop-color="#38BDF8" stop-opacity=".28"/><stop offset="1" stop-color="#A78BFA" stop-opacity=".8"/>
+  </linearGradient>
+  <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.2" fill="#7DD3FC" opacity=".10"/>
+  </pattern>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="20"/>
+  </filter>
+  <style>
+    .font{font-family:Inter,"Segoe UI",Arial,sans-serif}
+    .in{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+    @keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+    .float{animation:float 5s ease-in-out infinite}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    .pulse{animation:pulse 2.8s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+    .spin{animation:spin 18s linear infinite;transform-origin:50% 50%}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .scan{animation:scan 5.5s ease-in-out infinite}
+    @keyframes scan{0%{transform:translateX(-420px);opacity:0}15%{opacity:1}75%{opacity:1}100%{transform:translateX(1500px);opacity:0}}
+    .dash{stroke-dasharray:12 12;animation:dash 7s linear infinite}
+    @keyframes dash{to{stroke-dashoffset:-120}}
+    @media(prefers-reduced-motion:reduce){.in,.float,.pulse,.spin,.scan,.dash{animation:none}}
+  </style>
+</defs>
+<rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="300" rx="28" fill="url(#dots)"/>
+<ellipse cx="180" cy="60" rx="470" ry="300" fill="url(#cyanGlow)"/>
+<ellipse cx="1080" cy="240" rx="480" ry="330" fill="url(#violetGlow)"/>
+<rect x=".7" y=".7" width="1198.6" height="298.6" rx="28" fill="none" stroke="url(#edge)" stroke-opacity=".55"/>
+
+<g class="font">
+<text x="40" y="54" font-size="27" font-weight="900" fill="#F8FAFC">👨‍💻 About Me</text>
+<text x="40" y="92" font-size="16" fill="#A7B4CC">Final-year B.Tech student in Artificial Intelligence &amp; Machine Learning.</text>
+<text x="40" y="122" font-size="16" fill="#F8FAFC">I enjoy solving real-world problems through technology and building practical</text>
+<text x="40" y="148" font-size="16" fill="#F8FAFC">AI/ML systems, data-driven solutions and full-stack web applications.</text>
+<text x="40" y="174" font-size="16" fill="#F8FAFC">My approach: learn the fundamentals, build projects, test ideas and ship.</text>
+
+<g class="float">
+<rect x="800" y="70" width="325" height="160" rx="22" fill="#071A30" stroke="#A78BFA" stroke-opacity=".6"/>
+<text x="830" y="108" font-size="17" font-weight="800" fill="#F8FAFC">Always curious</text>
+<text x="830" y="139" font-size="17" font-weight="800" fill="#F8FAFC">Always learning</text>
+<text x="830" y="170" font-size="17" font-weight="800" fill="#F8FAFC">Always building</text>
+<text x="830" y="201" font-size="17" font-weight="800" fill="#22D3EE">for a better tomorrow 🚀</text>
+</g>
+
+<g class="in" style="animation-delay:.25s">
+<g transform="translate(40 220)"><rect width="165" height="46" rx="23" fill="#071A30" stroke="#34D399" stroke-opacity=".65"/><circle cx="25" cy="23" r="9" fill="#34D399" opacity=".9"/><text x="22" y="27" font-size="11" fill="#062018">✓</text><text x="43" y="29" font-size="13" fill="#F8FAFC">Problem Solver</text></g><g transform="translate(225 220)"><rect width="165" height="46" rx="23" fill="#071A30" stroke="#34D399" stroke-opacity=".65"/><circle cx="25" cy="23" r="9" fill="#34D399" opacity=".9"/><text x="22" y="27" font-size="11" fill="#062018">✓</text><text x="43" y="29" font-size="13" fill="#F8FAFC">Team Player</text></g><g transform="translate(410 220)"><rect width="165" height="46" rx="23" fill="#071A30" stroke="#34D399" stroke-opacity=".65"/><circle cx="25" cy="23" r="9" fill="#34D399" opacity=".9"/><text x="22" y="27" font-size="11" fill="#062018">✓</text><text x="43" y="29" font-size="13" fill="#F8FAFC">Quick Learner</text></g><g transform="translate(595 220)"><rect width="165" height="46" rx="23" fill="#071A30" stroke="#34D399" stroke-opacity=".65"/><circle cx="25" cy="23" r="9" fill="#34D399" opacity=".9"/><text x="22" y="27" font-size="11" fill="#062018">✓</text><text x="43" y="29" font-size="13" fill="#F8FAFC">Open Source</text></g>
+</g>
+</g>
+
+</svg>
